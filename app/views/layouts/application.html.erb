@@ -2,9 +2,16 @@
 <html lang="ru-RU">
 <head>
 	<meta charset="UTF-8">
-		<title>Ruby on Rails Tutorial Sample App | <%= @title%></title>
+		<title><%= @title %></title>
+		<%= render 'layouts/stylesheets' %>
 </head>
 <body>
-	<%= yield %>
+	<div class="container">
+		<%= render 'layouts/header' %>
+		<div id="content" class="round">
+			<%= yield %>
+		</div>
+		<%= render 'layouts/footer' %>
+	</div>
 </body>
 </html>
