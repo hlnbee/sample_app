@@ -1,0 +1,72 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-05-13 09:58:04) [GET]
+
+ActionController::RoutingError (No route matches "/pages/about.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-05-13 09:58:11) [GET]
+
+ActionController::RoutingError (No route matches "/pages/about" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-05-13 10:10:05) [GET]
+
+ActionController::RoutingError (No route matches "/spec/pages" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2011-05-13 10:10:12) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 58ms (View: 11, DB: 0) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-05-13 10:12:45) [GET]
+Rendering pages/about
+Completed in 43ms (View: 41, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-05-13 10:18:45) [GET]
+Rendering pages/home
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-05-13 10:18:56) [GET]
+Rendering pages/about
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-05-13 10:21:53) [GET]
+Rendering pages/about
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-05-13 10:21:58) [GET]
+Rendering pages/home
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-05-13 10:23:18) [GET]
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-05-13 10:24:33) [GET]
+Rendering pages/about
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-05-13 10:30:47) [GET]
+Rendering pages/about
+Completed in 73ms (View: 71, DB: 0) | 200 OK [http://localhost/pages/about]
